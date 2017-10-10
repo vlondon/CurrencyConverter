@@ -1,0 +1,63 @@
+PODS:
+  - EVReflection/Core (4.19.1)
+  - EVReflection/XML (4.19.1):
+    - EVReflection/Core
+    - XMLDictionary
+  - Mockingjay (2.0.0):
+    - Mockingjay/Core (= 2.0.0)
+    - Mockingjay/XCTest (= 2.0.0)
+  - Mockingjay/Core (2.0.0):
+    - URITemplate (~> 2.0)
+  - Mockingjay/XCTest (2.0.0):
+    - Mockingjay/Core
+  - Nimble (5.1.1)
+  - Quick (0.10.0)
+  - RxBlocking (3.0.1):
+    - RxSwift (~> 3.0)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - SnapKit (3.2.0)
+  - Swinject (2.1.1)
+  - URITemplate (2.0.2)
+  - VMScrollView (1.0.2)
+  - XMLDictionary (1.4.1)
+
+DEPENDENCIES:
+  - EVReflection/XML
+  - Mockingjay (from `https://github.com/kylef/Mockingjay.git`)
+  - Nimble (~> 5.1.1)
+  - Quick (~> 0.10.0)
+  - RxBlocking (~> 3.0.1)
+  - RxCocoa (~> 3.0)
+  - RxSwift (~> 3.0)
+  - SnapKit (~> 3.0)
+  - Swinject (~> 2.1.0)
+  - VMScrollView
+
+EXTERNAL SOURCES:
+  Mockingjay:
+    :git: https://github.com/kylef/Mockingjay.git
+
+CHECKOUT OPTIONS:
+  Mockingjay:
+    :commit: 9f1717d7ede3c181b0625a4091509752825de897
+    :git: https://github.com/kylef/Mockingjay.git
+
+SPEC CHECKSUMS:
+  EVReflection: 93817c1981460105cd3b44c67ea87a5b6f5bb98e
+  Mockingjay: 95a5fbe594f963f7536d3975739df39f1366f4d1
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
+  RxBlocking: 5de082d09d1ab45b49173f309f1a97d6b50f34c4
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  Swinject: afea49fd95f392b41171669f165842879c48fad6
+  URITemplate: d822aaa2f8ec9dcffffd13baa58bf9ee007e96cb
+  VMScrollView: a02fcaa904a610f6705d3cec13a119bca9adcbdc
+  XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
+
+PODFILE CHECKSUM: 79c8ec9905e64c306bf104a84a17e08a8b8febf6
+
+COCOAPODS: 1.2.0

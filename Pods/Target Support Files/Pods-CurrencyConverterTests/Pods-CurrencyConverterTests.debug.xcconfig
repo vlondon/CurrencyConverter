@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/EVReflection" "${PODS_ROOT}/Headers/Public/Mockingjay" "${PODS_ROOT}/Headers/Public/Nimble" "${PODS_ROOT}/Headers/Public/Quick" "${PODS_ROOT}/Headers/Public/RxBlocking" "${PODS_ROOT}/Headers/Public/RxCocoa" "${PODS_ROOT}/Headers/Public/RxSwift" "${PODS_ROOT}/Headers/Public/SnapKit" "${PODS_ROOT}/Headers/Public/Swinject" "${PODS_ROOT}/Headers/Public/URITemplate" "${PODS_ROOT}/Headers/Public/VMScrollView" "${PODS_ROOT}/Headers/Public/XMLDictionary"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/EVReflection" -isystem "${PODS_ROOT}/Headers/Public/Mockingjay" -isystem "${PODS_ROOT}/Headers/Public/Nimble" -isystem "${PODS_ROOT}/Headers/Public/Quick" -isystem "${PODS_ROOT}/Headers/Public/RxBlocking" -isystem "${PODS_ROOT}/Headers/Public/RxCocoa" -isystem "${PODS_ROOT}/Headers/Public/RxSwift" -isystem "${PODS_ROOT}/Headers/Public/SnapKit" -isystem "${PODS_ROOT}/Headers/Public/Swinject" -isystem "${PODS_ROOT}/Headers/Public/URITemplate" -isystem "${PODS_ROOT}/Headers/Public/VMScrollView" -isystem "${PODS_ROOT}/Headers/Public/XMLDictionary"
+OTHER_LDFLAGS = $(inherited) -framework "XCTest" -weak_framework "XCTest"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
